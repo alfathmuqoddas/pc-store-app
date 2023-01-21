@@ -25,7 +25,7 @@ export const Notebook = () => {
               <th className="w-1">Price</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-xs">
             {datt.map((dat) => (
               <tr key={dat.index}>
                 <td>{dat.Brand}</td>
