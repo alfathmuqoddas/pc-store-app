@@ -35,7 +35,8 @@ export const FilterTable = ({
   return (
     <div>
       <div>
-        <label htmlFor="brand-filter-input">Filter by Brand:</label>
+        <h2 className="text-xl">Filter By</h2>
+        <label htmlFor="brand-filter-input">Brand:</label>
         <select
           id="brand-filter-input"
           value={brandValue}
@@ -52,7 +53,7 @@ export const FilterTable = ({
         </select>
       </div>
       <div>
-        <label htmlFor="platform-filter-input">Filter by Platform:</label>
+        <label htmlFor="platform-filter-input">Platform:</label>
         <select
           id="platform-filter-input"
           value={platformValue}
@@ -64,7 +65,7 @@ export const FilterTable = ({
         </select>
       </div>
       <div>
-        <label htmlFor="os-filter-input">Filter by OS:</label>
+        <label htmlFor="os-filter-input">OS:</label>
         <select id="os-filter-input" value={osValue} onChange={onChangeOs}>
           <option value="">All</option>
           <option value="41">Windows 10</option>
@@ -73,7 +74,7 @@ export const FilterTable = ({
         </select>
       </div>
       <div>
-        <label htmlFor="ram-filter-input">Filter by RAM Size:</label>
+        <label htmlFor="ram-filter-input">RAM Size:</label>
         <select id="ram-filter-input" value={ramValue} onChange={onChangeRam}>
           <option value="">All</option>
           <option value="2">2 GB</option>
@@ -84,7 +85,7 @@ export const FilterTable = ({
         </select>
       </div>
       <div>
-        <label htmlFor="cpu-filter-input">Filter by CPU:</label>
+        <label htmlFor="cpu-filter-input">CPU:</label>
         <select id="cpu-filter-input" value={cpuValue} onChange={onChangeCpu}>
           <option value="">All</option>
           <option value="21">Intel i3</option>
@@ -98,7 +99,7 @@ export const FilterTable = ({
         </select>
       </div>
       <div>
-        <label htmlFor="storage-filter-input">Filter by Storage Size:</label>
+        <label htmlFor="storage-filter-input">Storage Size:</label>
         <select
           id="storage-filter-input"
           value={storageValue}
@@ -113,7 +114,7 @@ export const FilterTable = ({
         </select>
       </div>
       <div>
-        <label htmlFor="screen-filter-input">Filter by Screen Size:</label>
+        <label htmlFor="screen-filter-input">Screen Size:</label>
         <select
           id="screen-filter-input"
           value={screenValue}
