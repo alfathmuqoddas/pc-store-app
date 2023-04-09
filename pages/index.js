@@ -9,6 +9,7 @@ export default function Home() {
       </Head>
       Home
       <Link href="/notebook">Notebook</Link>
+      <Link href="/notebook2">Notebook2</Link>
     </div>
   );
 }
